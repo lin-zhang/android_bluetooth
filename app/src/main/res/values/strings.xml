@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--
+    <string name="app_name">bluetooth_mobile_platform</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+-->
+    <string name="app_name">Bluetooth Control</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">PMA_Robotics</string>
+    <string name="bt_not_enabled_leaving">Bluetooth Disabled</string>
+    <string name="not_connected">No connection</string>
+    <string name="title_connecting">Connecting</string>
+    <string name="title_connected_to">Connected to <xliff:g id="device_name"> </xliff:g></string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="title_disconnected">Disconnected</string>
+    <string name="switch_label">Close</string>
+
+    <!-- Gravity -->
+    <string name="gravity_label">Gravity</string>
+    <string name="gravity_title">Gravity</string>
+    <string name="gravity_label2">Disable</string>
+    <string name="gravity_return">Back</string>
+    <string name="gravity_enable">Enable</string>
+    <string name="x_value">X Value</string>
+    <string name="y_value">Y Value</string>
+    <string name="z_value">Z Value</string>
+
+    <!-- Screen -->
+    <string name="land_label">Landscape</string>
+    <string name="port_label">Portrait</string>
+
+    <!-- Scan -->
+    <string name="scan_label">Scan</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Available Devices</string>
+    <string name="button_scan">Scan </string>
+    <string name="none_paired">Not paired </string>
+    <string name="none_found">Device not found </string>
+    <string name="scanning">Connecting</string>
+    <string name="select_device">Choose a device</string>
+    <string name="button_cancel">Cancel</string>
+
+    <!-- Bluetooth -->
+    <string name="failed">Failed to connect</string>
+
+
+    <!-- About -->
+    <string name="about_label">About</string>
+    <string name="about_title">Instruction</string>
+    <string name="about_text1">Contact：lin.zhang@mech.kuleuven.be</string>
+    <string name="about_text2">PMA Robotics</string>
+    <string name="about_return">Back</string>
+
+    <!-- Direction Control -->
+    <string name="forward_label">Forward</string>
+    <string name="back_label">Backward</string>
+    <string name="right_label">Right</string>
+    <string name="left_label">Left</string>
+    <string name="stop_label">Stop</string>
+    <string name="exit_label">Exit</string>
+    <string name="Devices_label">Devices</string>
+
+    <!-- URL -->
+    <string name="URL">http://www.mech.kuleuven.be</string>
+
+    <!-- Disconnect -->
+    <string name="disconnect_label">Disconnect</string>
+
+    <!-- Options Menu -->
+    <string name="discoverable">Make discoverable</string>
+
+</resources>

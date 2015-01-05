@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+
+   >
+
+    <Button
+        android:id="@+id/gravity_open"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gravity_label"
+        android:layout_alignLeft="@+id/exit_button"
+        android:layout_alignStart="@+id/exit_button"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/scan_button"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_label"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="73dp"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_label"
+        android:layout_alignTop="@+id/switch_button"
+        android:layout_alignLeft="@+id/about_button"
+        android:layout_alignStart="@+id/about_button"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/gravity_close"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gravity_label2"
+        android:layout_alignTop="@+id/gravity_open"
+        android:layout_toLeftOf="@+id/gravity_open"
+        android:layout_toStartOf="@+id/gravity_open"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/switch_button"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_label"
+        android:layout_alignTop="@+id/scan_button"
+        android:layout_toRightOf="@+id/scan_button"
+        android:layout_toEndOf="@+id/scan_button"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about_label"
+        android:layout_above="@+id/exit_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/back_label"
+        android:layout_below="@+id/right_button"
+        android:layout_alignLeft="@+id/forward_button"
+        android:layout_alignStart="@+id/forward_button"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/right_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/right_label"
+        android:layout_below="@+id/forward_button"
+        android:layout_toRightOf="@+id/forward_button"
+        android:layout_toEndOf="@+id/forward_button"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/left_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/left_label"
+        android:layout_above="@+id/back_button"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/forward_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/forward_label"
+        android:layout_gravity="center"
+        android:layout_below="@+id/gravity_open"
+        android:layout_toRightOf="@+id/left_button"
+        android:layout_toEndOf="@+id/left_button"
+        android:textSize="10dp" />
+
+
+</RelativeLayout>
