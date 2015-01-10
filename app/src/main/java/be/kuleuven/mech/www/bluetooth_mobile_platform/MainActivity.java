@@ -78,16 +78,11 @@ public class MainActivity extends Activity implements OnClickListener
     private byte[] LEFT = {(byte) 0xFF, 0x5A, 0x5B, 0x00, 0x02, (byte) 0xFF};
     private byte[] RIGHT = {(byte) 0xFF, 0x5A, 0x5B, 0x00, 0x04, (byte) 0xFF};
     */
-//	String FORWARD = "w";
-//	String BACK = "x";
-//	String STOP = "s";
-//	String LEFT = "a";
-//	String RIGHT = "d";
-    String FORWARD = "d";
-    String BACK = "a";
+    String FORWARD = "w";
+    String BACK = "x";
     String STOP = "s";
-    String LEFT = "x";
-    String RIGHT = "w";
+    String LEFT = "a";
+    String RIGHT = "d";
     // Name of the connected device
     private String mConnectedDeviceName = null;
     // Local Bluetooth adapter
