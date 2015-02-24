@@ -106,5 +106,15 @@
         android:layout_toEndOf="@+id/left_button"
         android:textSize="10dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PMA Robotics"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/exit_button"
+        android:layout_alignEnd="@+id/exit_button" />
+
 
 </RelativeLayout>
